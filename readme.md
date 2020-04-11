@@ -20,8 +20,6 @@ A child theme for GeneratePress that includes template files for the Simple Smal
 2. At the top of the page click the Upload Theme button
 3. Upload this theme. WordPress will automatically install GeneratePress at the same time.
 4. Click on the 'Activate' button to use your new theme right away.
-5. Go to https://wordpress.org/support/article/twenty-nineteen/ for a guide on how to customize this theme.
-6. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 ## Changelog ##
 
