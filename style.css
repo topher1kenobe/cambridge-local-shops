@@ -1,0 +1,57 @@
+/*
+Theme Name:     Cambridge Local Shops
+Theme URI:      https://generatepress.com/
+Description:    Child theme for the GeneratePress theme
+Author:         Elisabeth Klaar
+Author URI:     https://www.oaktreestudio.co.uk
+Template:       generatepress
+Version:        1.5
+*/
+
+.archive #main  {
+  display: flex;
+  flex-flow: row wrap
+}
+.archive #main .page-header {
+  width: 100%;
+}
+.archive #main .simple_business  {
+  width: 42%;
+  border: 1px solid #ccc;
+  margin: 20px;
+  background-color: #fff;
+}
+
+.archive #main .simple_business span .read-more-container {
+  display:none;
+}
+
+.simple_business-template-default .entry-content {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+.simple_business-template-default .business-meta {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.simple_business-template-default #social_links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.simple_business-template-default #social_links ul li {
+  margin-bottom: 20px;
+}
+.simple_business-template-default #business_delivery_options {
+  clear: both;
+}
+
+ /* Portrait */
+@media (max-width: 768px) {
+  .archive #main .simple_business {
+    width: 100%;
+  }
+}
